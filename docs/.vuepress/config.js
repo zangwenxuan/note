@@ -3,10 +3,10 @@ module.exports = {
     description: "This is a blog.",
     base: '/' ,
     themeConfig: {
+    displayAllHeaders: true
       sidebar: [
-        '/',
-        '/posts',
-        ['/posts', 'Explicit link text']
+        ['/','主页'],
+        ['/posts/', '列表']
       ]
     }
   }
